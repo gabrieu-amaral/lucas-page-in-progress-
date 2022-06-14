@@ -13,6 +13,10 @@ Até agora eu tenho a configuração padrão de um novo progeto com o vite, e al
 
 Além disso eu fiz algo bem legal Home usando duas fotos, um efeito em css que eu tive a ideia e foi bem difícil de implementar mas eu achei incrível 
 
+<p align="ceter">
+   <img src="images/demo2.gif">
+</p>
+
 ## Tecnologias 🧪
 
 - react ⚛
