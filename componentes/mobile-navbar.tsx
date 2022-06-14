@@ -6,9 +6,10 @@ class MobileNavbar extends React.Component {
     navList: any;
     navLinks: NodeListOf<any>;
     activeClass: string;
+
     
     constructor(mobileMenu, navList, navLinks) {
-        super(mobileMenu, navList);
+        super();
         this.mobileMenu = document.querySelector(mobileMenu);
         this.navList = document.querySelector(navList);
         this.navLinks = document.querySelectorAll(navLinks);

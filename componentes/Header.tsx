@@ -1,9 +1,14 @@
-<script src="mobile-navbar.tsx"></script>
+
+import { useState } from "react";
 function Header(){
 
 const show = () => {
 console.log("Hey 🎇")
+setXuxu(!xuxu)
 }
+
+let [xuxu, setXuxu] = useState(false);
+
 
 return (
 
@@ -19,7 +24,7 @@ return (
 
             </div>
 
-            <ul className="navbar-nav nav-list">
+            <ul className={"navbar-nav nav-list" + (xuxu ? "active outside-menu" : "")}>
 
                 <li className="nav-item">
                     <a className="nav-link" href="/">Home</a>
