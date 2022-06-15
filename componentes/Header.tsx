@@ -18,9 +18,9 @@ return (
 
             <div className="mobile-menu"
             onClick={show}>
-                <div className="line1"></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
+                <div className={"line1" + (xuxu ? "-active" : "")}></div>
+                <div className={"line2" + (xuxu ? "-active" : "")}></div>
+                <div className={"line3" + (xuxu ? "-active" : "")}></div>
 
             </div>
 

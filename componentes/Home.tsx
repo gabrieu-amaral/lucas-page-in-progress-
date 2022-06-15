@@ -7,7 +7,7 @@ function Home(){
     
     <div className="boxcontainer">
 
-    <div className="image1">
+        <div className="image1">
             
             <div className="imageHome">
                 <img 
@@ -26,9 +26,6 @@ function Home(){
             
         </div>
 
-        
-
-        
     </div>
 </>
 
