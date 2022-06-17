@@ -27,6 +27,7 @@ function Home(){
         </div>
 
     </div>
+    //o q fazer agora?
 </>
 
     )}
