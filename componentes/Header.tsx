@@ -8,6 +8,7 @@ setXuxu(!xuxu)
 }
 
 let [xuxu, setXuxu] = useState(false);
+const [goTo, setGoTo] = useState("Home")
 
 
 return (
@@ -31,7 +32,7 @@ return (
                 </li>
 
                 <li className="nav-item">
-                    <a className="nav-link" href="/sobre">Sobre</a>
+                    <a className="nav-link" href="/sobre" onClick={() => {}}>Sobre</a>
                 </li>
 
                 <li className="nav-item">
